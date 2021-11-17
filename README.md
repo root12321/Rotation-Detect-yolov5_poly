@@ -56,6 +56,7 @@ pip install -r requirements
 ----------|2.json
 
 ----|_min_poly.py
+
 labelme标注的实例如下图，标注成poly类型或者rec类型均可
 ![image](https://user-images.githubusercontent.com/28287748/142178999-246c9059-2507-42cb-8e1c-c17c2567e88a.png)
 
