@@ -1,0 +1,19 @@
+# train and val datasets (image directory or *.txt file with image paths)
+# train: ../DOTA_YOLO/train_1024_OBB/images/train2020/
+# val: ../DOTA_YOLO/val_1024_OBB/images/train2020/
+
+train: /data/dataset/dataset_download/datasets/test/val_poly.txt
+val: /data/dataset/dataset_download/datasets/test/val_poly.txt
+test: /data/dataset/dataset_download/datasets/test/val_poly.txt
+
+# number of classes
+#nc: 16
+nc: 6
+
+# class names
+# names: [ 'plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship',
+#          'tennis-court', 'basketball-court', 'storage-tank',  'soccer-ball-field', 'roundabout', 'harbor',
+#          'swimming-pool', 'helicopter', 'container-crane' ]
+# names: ['jueyuanzi','']
+# names: ['seg_jueyuanzi_01','seg_fangzhenchui_sh','seg_daodixian_01','fushusheshi_01','fushusheshi_03','ganta_02','gkxfw','TaDiao','YanHuo','zhongjianjian']
+names: ['falanpan_normal','seg_blz_jsxs','seg_blz_normal','seg_taizhou_caigangwa', 'seg_taizhou_dapeng','seg_taizhou_jsxs']
